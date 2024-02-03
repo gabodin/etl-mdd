@@ -35,6 +35,8 @@ services:
       POSTGRES_PASSWORD_FILE: /run/secrets/db_password
     volumes:
       - ./pg:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
     networks:
       - metanet1
     secrets:
