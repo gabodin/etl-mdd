@@ -3,7 +3,7 @@ import csv
 
 
 if __name__ == "__main__":
-    input_json_path = "C:\\Users\\Beatr\\Documents\\etl-mdd\\csv-files\\"
+    input_json_path = ""
     file_name = "bolsa-familia2021.json"
     input_path = input_json_path + file_name
     output_csv_file = "bolsa-familia2021.csv"
