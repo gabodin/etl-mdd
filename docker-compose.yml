@@ -12,7 +12,7 @@ services:
       - ./pg:/var/lib/postgresql/data
       - ./create_database.sql:/docker-entrypoint-initdb.d/create_database.sql
     ports:
-      - 5432:5432
+      - 5433:5432
     networks:
       - metanet1
     secrets:
